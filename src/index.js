@@ -9,7 +9,7 @@ import { UserListDetail } from "./components/user-list-detail/UserListDetail";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: User,
+    element: <User />,
   },
   {
     path: "/user",
